@@ -7,7 +7,7 @@ This project analyzes football videos by detecting and tracking players and the 
 
 ##  Features
 
--  Detects football players, referees, and ball using YOLOv8
+-  Detects football players, referees, and ball using YOLOv11
 -  Tracks each object using unique IDs across frames
 -  Stores positional and detection data for each object
 -  Outputs annotated video with bounding boxes and labels
@@ -17,28 +17,28 @@ This project analyzes football videos by detecting and tracking players and the 
 
 ##  Setup Instructions
 
-### 1. Create a virtual environment 
+# 1. Create a virtual environment 
 
 python -m venv venv
 source venv/bin/activate       # macOS/Linux
 venv\Scripts\activate          # Windows
 
 
-### 2.Install all required dependencies
+# 2.Install all required dependencies
 pip install -r requirements.txt
 
-### 3.Add your YOLOv11 model weights
+# 3.Add your YOLOv11 model weights
 Download or copy your trained YOLO model file (best.pt) and place it inside the models/ folder.
 
 ---
 
 ##  How to Run
 
-###1. Add an input video
+# 1. Add an input video
 Place your .mp4 or .avi video file in the input_videos/ folder.
 Example: input_videos/15sec_input_720p.mp4
 
-###2. Run the main pipeline
+# 2. Run the main pipeline
 python main.py
 
 This will:
