@@ -20,7 +20,9 @@ This project analyzes football videos by detecting and tracking players and the 
 # 1. Create a virtual environment 
 
 python -m venv venv
+
 source venv/bin/activate       # macOS/Linux
+
 venv\Scripts\activate          # Windows
 
 
