@@ -98,12 +98,8 @@ Once trained, place the resulting best.pt file into the models/ directory.
 
 ##  Requirements
 
-- Python ≥ 3.8  
-- torch ≥ 2.0  
-- torchvision  
 - OpenCV  
-- Ultralytics YOLOv11  
-- tqdm  
+- Ultralytics 
 - numpy  
 
 To install everything:
