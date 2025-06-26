@@ -27,17 +27,18 @@ venv\Scripts\activate          # Windows
 ### 2.Install all required dependencies
 pip install -r requirements.txt
 
-### 3.Add your YOLOv8 model weights
+### 3.Add your YOLOv11 model weights
 Download or copy your trained YOLO model file (best.pt) and place it inside the models/ folder.
 
 ---
 
 ##  How to Run
-#1. Add an input video
+
+###1. Add an input video
 Place your .mp4 or .avi video file in the input_videos/ folder.
 Example: input_videos/15sec_input_720p.mp4
 
-#2. Run the main pipeline
+###2. Run the main pipeline
 python main.py
 
 This will:
@@ -94,7 +95,7 @@ Once trained, place the resulting best.pt file into the models/ directory.
 - torch ≥ 2.0  
 - torchvision  
 - OpenCV  
-- Ultralytics YOLOv8  
+- Ultralytics YOLOv11  
 - tqdm  
 - numpy  
 
