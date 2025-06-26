@@ -61,7 +61,7 @@ Save tracking data to tracker_stubs/player_detection.pkl
 
 🎞️ output_videos/output.avi — video with bounding boxes and IDs
 ![image](https://github.com/user-attachments/assets/1afe1181-9bc9-45c7-9439-87672e22034e)
-![image](https://github.com/user-attachments/assets/e5f82b02-4546-4f8e-9642-713010db77c5)
+
 ![image](https://github.com/user-attachments/assets/e5f82b02-4546-4f8e-9642-713010db77c5)
 
 
