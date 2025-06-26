@@ -74,12 +74,12 @@ Save tracking data to tracker_stubs/player_detection.pkl
 | File/Folder              | Description                                               |
 |--------------------------|-----------------------------------------------------------|
 | `main.py`                | Main controller to run detection + tracking pipeline      |
-| `yolo_inference.py`      | Contains detection logic using YOLOv8                     |
+| `yolo_inference.py`      | Contains detection logic using YOLOv11                     |
 | `trackers/tracker.py`    | Assigns and maintains unique object IDs                   |
 | `utils/bbox_utils.py`    | Bounding box helpers (IoU, drawing, conversion)           |
 | `utils/video_utils.py`   | Frame reading/writing + FPS/codec handling                |
 | `tracker_stubs/player_detection.pkl` | Pickled object data for external analysis       |
-| `models/best.pt`         | Fine-tuned YOLOv8 weights used for object detection       |
+| `models/best.pt`         | Fine-tuned YOLOv11 weights used for object detection       |
 
 
 ---
