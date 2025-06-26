@@ -60,6 +60,8 @@ Save tracking data to tracker_stubs/player_detection.pkl
 ## Sample Output
 
 🎞️ output_videos/output.avi — video with bounding boxes and IDs
+![image](https://github.com/user-attachments/assets/1afe1181-9bc9-45c7-9439-87672e22034e)
+![image](https://github.com/user-attachments/assets/1afe1181-9bc9-45c7-9439-87672e22034e)
 
 
 ---
@@ -84,7 +86,7 @@ Save tracking data to tracker_stubs/player_detection.pkl
 If you'd like to fine-tune your own YOLOv11 model using your football dataset, you can use the Ultralytics CLI:
 
 
-yolo task=detect mode=train model=yolov11m.pt data=data.yaml epochs=50 imgsz=640
+yolo task=detect mode=train model=yolov11m.pt data=data.yaml epochs=80 imgsz=640
 
 
 Once trained, place the resulting best.pt file into the models/ directory.
