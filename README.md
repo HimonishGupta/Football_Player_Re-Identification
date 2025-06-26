@@ -19,7 +19,6 @@ This project analyzes football videos by detecting and tracking players and the 
 
 ### 1. Create a virtual environment 
 
-```bash
 python -m venv venv
 source venv/bin/activate       # macOS/Linux
 venv\Scripts\activate          # Windows
@@ -81,7 +80,7 @@ Save tracking data to tracker_stubs/player_detection.pkl
 
 If you'd like to fine-tune your own YOLOv11 model using your football dataset, you can use the Ultralytics CLI:
 
-```bash
+
 yolo task=detect mode=train model=yolov11m.pt data=data.yaml epochs=50 imgsz=640
 
 
@@ -101,7 +100,6 @@ Once trained, place the resulting best.pt file into the models/ directory.
 
 To install everything:
 
-```bash
 pip install -r requirements.txt
 
 
